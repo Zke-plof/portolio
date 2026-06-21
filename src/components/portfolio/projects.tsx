@@ -17,6 +17,17 @@ type Project = {
 const projects: Project[] = [
   {
     n: '01',
+    title: 'Pluton',
+    kind: 'R&D lab — fungal bio-electrochemical systems',
+    year: '2026',
+    blurb:
+      'An early-stage R&D lab researching whether fungal mycelium networks can work as bio-electrochemical systems for cell batteries. Running experiments on electron transfer mechanisms, building test rigs, and documenting everything in public.',
+    stack: ['Electrochemistry', 'Mycology', 'R&D'],
+    link: 'https://r-d-phi.vercel.app',
+    status: 'wip',
+  },
+  {
+    n: '02',
     title: 'Loopwave',
     kind: 'Real-time audio collab',
     year: '2026',
@@ -27,7 +38,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '02',
+    n: '03',
     title: 'Nebula UI',
     kind: 'Open-source component library',
     year: '2025',
@@ -38,7 +49,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '03',
+    n: '04',
     title: 'Glasshopper',
     kind: 'HTTP client for Bun',
     year: '2025',
@@ -49,7 +60,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '04',
+    n: '05',
     title: 'Pixel Press',
     kind: 'Pixel-art studio',
     year: '2024',
@@ -60,7 +71,7 @@ const projects: Project[] = [
     status: 'archived',
   },
   {
-    n: '05',
+    n: '06',
     title: 'Threadline',
     kind: 'Markdown-first blog engine',
     year: '2024',
@@ -71,7 +82,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '06',
+    n: '07',
     title: 'Orbit',
     kind: 'Personal finance dashboard',
     year: '2023',
@@ -101,7 +112,7 @@ export function Projects() {
           </div>
           <div className="col-span-12 md:col-span-7">
             <h2 className="font-display text-4xl sm:text-6xl leading-[0.95] tracking-tight">
-              Six things I&apos;ve{' '}
+              Seven things I&apos;ve{' '}
               <span className="italic text-muted-foreground">actually shipped</span>,
               <br />
               in roughly the order I&apos;m proud of them.
