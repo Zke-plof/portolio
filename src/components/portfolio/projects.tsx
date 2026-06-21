@@ -28,6 +28,50 @@ const projects: Project[] = [
   },
   {
     n: '02',
+    title: 'Lili Modeler',
+    kind: 'Lightweight 3D modeler for engineers',
+    year: '2026',
+    blurb:
+      'An open-source 3D modeling app built with Tauri v2, Rust, and Three.js. ~5MB binary, starts in under a second. Full mesh editing, sculpt mode, boolean operations, physics, and animation — aimed at engineering students who deserve better tools than Blender\'s 200MB.',
+    stack: ['Rust', 'Tauri v2', 'Three.js', 'TypeScript'],
+    link: 'https://github.com/Zke-plof/lili-modeler',
+    status: 'wip',
+  },
+  {
+    n: '03',
+    title: 'Server Story Engine',
+    kind: 'Minecraft narrative history plugin',
+    year: '2026',
+    blurb:
+      'A Paper plugin that watches what players do and writes it into living history — not logs, actual stories. Tracks wars, economies, and milestones, auto-generates collectible lore books, drops landmarks, and posts events to Discord.',
+    stack: ['Java', 'Paper API', 'Maven'],
+    link: 'https://github.com/Zke-plof/ServerStoryEngine',
+    status: 'live',
+  },
+  {
+    n: '04',
+    title: 'Anguard',
+    kind: 'Real-time fake player detection',
+    year: '2026',
+    blurb:
+      'A lightweight Paper plugin that detects bots, alt accounts, vote farmers, and AFK grinders in real-time. Four independent detection modules, DiscordSRV integration, live config editing, and zero impact on server TPS.',
+    stack: ['Java', 'Paper API', 'DiscordSRV'],
+    link: 'https://github.com/Zke-plof/Anguard',
+    status: 'live',
+  },
+  {
+    n: '05',
+    title: 'MangaLive',
+    kind: 'Manga reader web app',
+    year: '2025',
+    blurb:
+      'A MangaDex-style manga reader with a custom UI — search, library, reading modes, and advanced search. Built as a frontend practice project cloning the MangaDex style guide from screenshots.',
+    stack: ['React', 'JavaScript', 'SCSS'],
+    link: 'https://manga-live.vercel.app',
+    status: 'live',
+  },
+  {
+    n: '06',
     title: 'Loopwave',
     kind: 'Real-time audio collab',
     year: '2026',
@@ -38,7 +82,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '03',
+    n: '07',
     title: 'Nebula UI',
     kind: 'Open-source component library',
     year: '2025',
@@ -49,7 +93,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '04',
+    n: '08',
     title: 'Glasshopper',
     kind: 'HTTP client for Bun',
     year: '2025',
@@ -60,7 +104,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '05',
+    n: '09',
     title: 'Pixel Press',
     kind: 'Pixel-art studio',
     year: '2024',
@@ -71,7 +115,7 @@ const projects: Project[] = [
     status: 'archived',
   },
   {
-    n: '06',
+    n: '10',
     title: 'Threadline',
     kind: 'Markdown-first blog engine',
     year: '2024',
@@ -82,7 +126,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '07',
+    n: '11',
     title: 'Orbit',
     kind: 'Personal finance dashboard',
     year: '2023',
@@ -112,7 +156,7 @@ export function Projects() {
           </div>
           <div className="col-span-12 md:col-span-7">
             <h2 className="font-display text-4xl sm:text-6xl leading-[0.95] tracking-tight">
-              Seven things I&apos;ve{' '}
+              Eleven things I&apos;ve{' '}
               <span className="italic text-muted-foreground">actually shipped</span>,
               <br />
               in roughly the order I&apos;m proud of them.
