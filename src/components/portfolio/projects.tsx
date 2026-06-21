@@ -60,7 +60,7 @@ const projects: Project[] = [
     status: 'live',
   },
   {
-    n: '05',
+    n: '06',
     title: 'MangaLive',
     kind: 'Manga reader web app',
     year: '2025',
@@ -69,71 +69,6 @@ const projects: Project[] = [
     stack: ['React', 'JavaScript', 'SCSS'],
     link: 'https://manga-live.vercel.app',
     status: 'live',
-  },
-  {
-    n: '06',
-    title: 'Loopwave',
-    kind: 'Real-time audio collab',
-    year: '2026',
-    blurb:
-      'A browser DAW where four people can edit the same project at once. Built the CRDT sync layer and the waveform renderer from scratch — 14ms p99 round-trip on a bad day.',
-    stack: ['Next.js', 'WebRTC', 'WebAudio', 'Yjs'],
-    link: '#',
-    status: 'live',
-  },
-  {
-    n: '07',
-    title: 'Nebula UI',
-    kind: 'Open-source component library',
-    year: '2025',
-    blurb:
-      'Headless React components with first-class TypeScript inference and motion baked in. About 2,400 weekly installs; I write the docs and review every PR.',
-    stack: ['TypeScript', 'Radix', 'Tailwind v4'],
-    link: '#',
-    status: 'live',
-  },
-  {
-    n: '08',
-    title: 'Glasshopper',
-    kind: 'HTTP client for Bun',
-    year: '2025',
-    blurb:
-      'A small fetch wrapper with retries, plugin hooks, and end-to-end inference. Inspired by ky and ofetch — born from frustration with both.',
-    stack: ['TypeScript', 'Bun', 'Zod'],
-    link: '#',
-    status: 'live',
-  },
-  {
-    n: '09',
-    title: 'Pixel Press',
-    kind: 'Pixel-art studio',
-    year: '2024',
-    blurb:
-      'WebGL pixel editor with onion-skin animation and palette swapping. Won the Berlin Global Game Jam 2024 — shipped in 48 hours, never cleaned up the code.',
-    stack: ['React', 'WebGL', 'Vite'],
-    link: '#',
-    status: 'archived',
-  },
-  {
-    n: '10',
-    title: 'Threadline',
-    kind: 'Markdown-first blog engine',
-    year: '2024',
-    blurb:
-      'A file-based blogging framework with MDX, OG images, and zero-config RSS. Powers my own writing site. Opinionated by design.',
-    stack: ['Next.js', 'MDX', 'Sharp'],
-    link: '#',
-    status: 'live',
-  },
-  {
-    n: '11',
-    title: 'Orbit',
-    kind: 'Personal finance dashboard',
-    year: '2023',
-    blurb:
-      'Aggregates four bank APIs into one keyboard-driven dashboard. Built it because every existing option felt like an enterprise SaaS demo. It is mine. No public link.',
-    stack: ['Next.js', 'tRPC', 'Postgres'],
-    status: 'wip',
   },
 ]
 
@@ -156,7 +91,7 @@ export function Projects() {
           </div>
           <div className="col-span-12 md:col-span-7">
             <h2 className="font-display text-4xl sm:text-6xl leading-[0.95] tracking-tight">
-              Eleven things I&apos;ve{' '}
+              Six things I&apos;ve{' '}
               <span className="italic text-muted-foreground">actually shipped</span>,
               <br />
               in roughly the order I&apos;m proud of them.
